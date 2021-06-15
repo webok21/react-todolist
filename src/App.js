@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import toDo from './toDo.json';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <h1>To do list</h1>
+      {toDo.map((singleData, i) => <TodoList key={i}
+        beforeImg={singleData.img1}
+        todo={singleData.todo}
+        style={singleData.style}
+        afterImg={singleData.img2}
+      />)}
+    </main>
   );
 }
 

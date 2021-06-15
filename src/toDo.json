@@ -1,0 +1,50 @@
+[
+    {
+        "img1": "./img/check.png",
+        "todo": "Hit the gym",
+        "img2": "./img/gym.png",
+        "style": {
+            "text-decoration": "line-through"
+        }
+    },
+    {
+        "img1": "./img/check.png",
+        "todo": "Pay bills",
+        "img2": "../img/bill.png",
+        "style": {
+            "text-decoration": "line-through"
+        }
+    },
+    {
+        "img1": "../img/doing.png",
+        "todo": "Meet George",
+        "img2": "../img/dance.png",
+        "style": {
+            "background": "lightblue"
+        }
+    },
+    {
+        "img1": "../img/doing.png",
+        "todo": "Buy eggs",
+        "img2": "../img/eat.png",
+        "style": {
+            "background": "lightblue"
+        }
+    },
+    {
+        "img1": "../img/no.png",
+        "todo": "Read a book",
+        "img2": "../img/book.png",
+        "style": {
+            "text-decoration": "underline"
+        }
+    },
+    {
+        "img1": "../img/no.png",
+        "todo": "Organize office",
+        "img2": "../img/organize.png",
+        "style": {
+            "text-decoration": "underline"
+        }
+    }
+]
